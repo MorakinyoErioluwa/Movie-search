@@ -46,31 +46,17 @@ This project helped me strengthen my understanding of:
 
 ## 📷 Screenshots
 
-Add screenshots of:
-
-* Home page
-* Search results
-* Movie details page
+![Home page](./Screenshots/Homepage.jpg)
+![Search results](./Screenshots/search.jpg)
+![Movie details](./Screenshots/details.jpg)
 
 ## 🔗 Live Demo
 
 🔗 [Live Demo](https://rud-a.vercel.app/)
 
-
-
-
-### Desktop View
-![Desktop View](./Screenshots/Desktop-To-Do.png)
-
-### Mobile View
-![Mobile View](./Screenshots/Mobile-To%20do.png)
-
-
 ## 📂 Repository
 
 🔗 [GitHub Repository](https://github.com/MorakinyoErioluwa/Movie-search.git)
-
-
 
 ## 👩🏽‍💻 Author
 
