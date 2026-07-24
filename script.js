@@ -31,7 +31,7 @@ function displayMovies(movies) {
                     // loading="lazy"
                     // src="${movie.Poster}"
                     // alt="${movie.Title}"
-                    // class="w-full h-80 object-contain transition-transform duration-500 group-hover:scale-105"
+                    // class="w-full h-96 object-contain transition-transform duration-500 group-hover:scale-105"
                     // onerror="this.src='https://placehold.co/300x450?text=No+Poster'"
                 >
 
@@ -219,27 +219,24 @@ async function getMovieDetails(imdbID) {
                             <!-- Quick Info -->
                             <div class="flex flex-wrap items-center gap-3 mb-8">
 
-                                <div class="bg-slate-900 rounded-xl p-4 min-h-[95px] flex flex-col justify-center">
+                                <div class="bg-slate-800 rounded-xl p-4 min-h-[95px] flex flex-col justify-center">
                                     <p class="text-slate-400 text-sm">Year</p>
                                     <p class="text-white font-semibold">${data.Year}</p>
                                 </div>
 
-                                <div class="bg-slate-900 rounded-xl p-4 min-h-[95px] flex flex-col justify-center">
+                                <div class="bg-slate-800 rounded-xl p-4 min-h-[95px] flex flex-col justify-center">
                                     <p class="text-slate-400 text-sm">IMDb Rating</p>
                                     <p class="inline-flex w-fit items-center bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full font-semibold">
                                         ⭐ ${data.imdbRating}
                                     </p>
                                 </div>
 
-                                <div class="bg-slate-900 rounded-xl p-4 min-h-[95px] flex flex-col justify-center">
+                                <div class="bg-slate-800 rounded-xl p-4 min-h-[95px] flex flex-col justify-center">
                                     <p class="text-slate-400 text-sm">Genre</p>
                                     <p class="text-white font-semibold">${data.Genre}</p>
                                 </div>
 
-                                <div class="bg-slate-900 rounded-xl p-4 min-h-[95px] flex flex-col justify-center">
-                                    <p class="text-slate-400 text-sm">Runtime</p>
-                                    <p class="text-white font-semibold">${data.Runtime}</p>
-                                </div>
+            
 
                             </div>
 
