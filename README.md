@@ -46,8 +46,13 @@ This project helped me strengthen my understanding of:
 
 ## 📷 Screenshots
 
+## Home page
 ![Home page](./Screenshots/Homepage.jpg)
+
+## Search results
 ![Search results](./Screenshots/search.jpg)
+
+## Movie details
 ![Movie details](./Screenshots/details.jpg)
 
 ## 🔗 Live Demo
